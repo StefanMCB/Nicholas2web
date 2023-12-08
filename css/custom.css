@@ -31,4 +31,11 @@
 	line-height: var(--cnvs-line-height-content);
   }
 
-
+  .owl-carousel .owl-item img {
+	
+	max-height: 100vh; /* Set the maximum height to the viewport height */
+	height: auto; /* Maintain the aspect ratio */
+	display: block; /* Remove extra space below inline images */
+	margin: 0 auto; /* Center the image horizontally within the container */
+	transform-style: preserve-3d;
+  }
