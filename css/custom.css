@@ -1,0 +1,18 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+:root,
+[data-bs-theme=light] {
+--bs-font-sans-serif: system-ui, -apple-system, "Inconsolata", monospace, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+--bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+ /* Font Families */
+ --cnvs-body-font:	"Inconsolata", monospace;
+ --cnvs-primary-font:	"Inter", sans-serif;
+ --cnvs-secondary-font:	"Inconsolata", monospace;
+}
+
+
