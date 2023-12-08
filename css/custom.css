@@ -16,3 +16,19 @@
 }
 
 
+#footer {
+	--cnvs-footer-top-border: 1px solid rgba(var(--cnvs-contrast-rgb), 0.15);
+	--cnvs-copyrights-link-color: var(--cnvs-contrast-500);
+	position: relative;
+	background-color: var(--cnvs-footer-bg);
+	border-top: var(--cnvs-footer-top-border);
+  }
+
+#copyrights {
+	padding: calc(var(--cnvs-content-padding) * 0.5) 0;
+	background-color: var(--cnvs-white);
+	font-size: var(--cnvs-copyrights-font-size);
+	line-height: var(--cnvs-line-height-content);
+  }
+
+
