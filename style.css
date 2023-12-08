@@ -17548,7 +17548,7 @@ body:not(.is-expanded-menu):not(.primary-menu-open) .semi-transparent.transparen
 #logo {
   position: relative;
   display: flex;
-  
+  align-items: center;
   margin-right: auto;
   max-height: 100%;
 }
