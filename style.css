@@ -17577,6 +17577,7 @@ body:not(.is-expanded-menu):not(.primary-menu-open) .semi-transparent.transparen
     transition: none;
   }
 }
+
 #header-wrap #logo img {
   height: var(--cnvs-header-height);
 }
