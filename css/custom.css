@@ -16,6 +16,18 @@
 }
 
 
+
+
+.owl-carousel .owl-item img {
+	max-width: 100%; /* Ensure the image doesn't exceed the container width */
+	width: auto; /* Ensure the image doesn't exceed the container width */
+	max-height: 85vh; /* Set the maximum height to the viewport height */
+	height: auto; /* Maintain the aspect ratio */
+	display: block; /* Remove extra space below inline images */
+  	margin: 0 auto; /* Center the image horizontally within the container */
+	
+  }
+
 #footer {
 	--cnvs-footer-top-border: 1px solid rgba(var(--cnvs-contrast-rgb), 0.15);
 	--cnvs-copyrights-link-color: var(--cnvs-contrast-500);
@@ -31,12 +43,10 @@
 	line-height: var(--cnvs-line-height-content);
   }
 
-  .owl-carousel .owl-item img {
-	max-width: 100%; /* Ensure the image doesn't exceed the container width */
-	width: auto; /* Ensure the image doesn't exceed the container width */
-	max-height: 85vh; /* Set the maximum height to the viewport height */
-	height: auto; /* Maintain the aspect ratio */
-	display: block; /* Remove extra space below inline images */
-  	margin: 0 auto; /* Center the image horizontally within the container */
+.footer-logo {
 	
-  }
+	
+	width: 125px;
+	height: auto;
+}
+
