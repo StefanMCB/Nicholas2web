@@ -45,8 +45,9 @@
 
 .footer-logo {
 	
-	
+	display: inline-block;
 	width: 125px;
 	height: auto;
+	margin: 10px;
 }
 
