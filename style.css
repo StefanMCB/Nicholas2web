@@ -13718,6 +13718,7 @@ textarea.form-control-lg {
 @media (prefers-reduced-motion: reduce) {
   .revealer-image {
     transition: none;
+    
   }
 }
 .section:hover .revealer-image {
